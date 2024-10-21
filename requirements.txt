@@ -1,0 +1,6 @@
+requests
+pysocket
+randomstring
+threading
+os
+colorama
