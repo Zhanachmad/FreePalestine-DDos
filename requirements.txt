@@ -1,6 +1,7 @@
 requests
-pysocket
-randomstring
+socket
+random
+string
 threading
 os
-colorama
+
