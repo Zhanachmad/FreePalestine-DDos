@@ -15,7 +15,7 @@ class SockFlood:
 		self.threads=None
 
 	def graphics(self):
-		banner=""" 
+		banner =("""
 	                                  /|                
 		                         / |                  
 		                        /  |                
@@ -26,7 +26,7 @@ class SockFlood:
          /  |      ____/\_|   |        |   |_________|__|   |               
          |  |_____/ ___/\____ |________/  /\________________/                          
 	  \________/          \__________/                                              
-		"""
+		""")
 		print(Fore.RED+banner)
 		print(Fore.YELLOW+"""
 		[+] An Advance DDOS Tool Using Sockets Written in Python [+]"""+Fore.GREEN+"""
