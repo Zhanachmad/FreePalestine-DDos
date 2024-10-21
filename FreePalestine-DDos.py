@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-         
 import os
 import socket
 import string
@@ -29,7 +30,6 @@ class SockFlood:
 		print(Fore.RED+banner)
 		print(Fore.YELLOW+"""
 		[+] An Advance DDOS Tool Using Sockets Written in Python [+]"""+Fore.GREEN+"""
-		[+] Developer : Kanao#7218 [ """+Fore.WHITE+"""SecretsX ]""")
 		print(Fore.WHITE+"""
 		[+] Type `help` If You Are A Beginner [+]
 			""")
