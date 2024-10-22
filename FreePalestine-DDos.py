@@ -9,27 +9,28 @@ from colorama import Fore, Back, Style
 class SockFlood:
 	def __init__(self):
 		os.system("cls")
-		os.system("UDP attack flood ")
+		os.system("title UdpFlood - An Advance DDOS Tool ")
 		self.host=None
 		self.portnum=None
 		self.threads=None
 
 	def graphics(self):
-		banner =("""
-	                                  /|                
-		                         / |                  
-		                        /  |                
-		                       |   |                          
-		                       |   |                                      
-		                       |   |           ____             
-		           ___         |   |          /\   \             
-         /  |      ____/\_|   |        |   |_________|__|   |               
-         |  |_____/ ___/\____ |________/  /\________________/                          
-	  \________/          \__________/                                              
-		""")
+		banner="""
+		 
+		
+		▓██░ ██▓▒░ ▓██▄    
+		▒██▄█▓▒ ▒  ▒   ██
+		▒░░▒█░   
+		▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░   ██▒▒▒  ▒ ░    ░ ▒░▓  ░░ ▒░▒░▒░ ░ ▒░▒░▒░  ▒▒▓  ▒ 
+		░▒ ░     ░ ░▒  ░ ░ ▓██ ░▒░  ░      ░ ░ ▒  ░  ░ ▒ ▒░   ░ ▒ ▒░  ░ ▒  ▒ 
+		░░       ░  ░  ░   ▒ ▒ ░░   ░ ░      ░ ░   ░ ░ ░ ▒  ░ ░ ░ ▒   ░ ░  ░ 
+					   ░   ░ ░                 ░  ░    ░ ░      ░ ░     ░    
+						   ░ ░                                        ░      
+		"""
 		print(Fore.RED+banner)
 		print(Fore.YELLOW+"""
 		[+] An Advance DDOS Tool Using Sockets Written in Python [+]"""+Fore.GREEN+"""
+		[+] Developer : ZacxDDos [ """+Fore.WHITE+"""N]""")
 		print(Fore.WHITE+"""
 		[+] Type `help` If You Are A Beginner [+]
 			""")
